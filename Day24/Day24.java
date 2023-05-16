@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Day24 {
     public static void main(String[] args) {
-            //Display a number in words even with tailing 0
+            //Display a number in words even with tailing 0 
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter no. : ");
             int n = sc.nextInt();
