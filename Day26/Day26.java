@@ -16,4 +16,4 @@ public class Day26 {
             }
         }
         System.out.println("Second largest no. : " + max2);
-}
+}}
