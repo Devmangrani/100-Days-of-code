@@ -20,7 +20,7 @@ public class day41 {
         return z;
     }
     public static void main(String[] args) {
-        System.out.println(max(10, 5));
+        System.out.println(max(10, 4));
         System.out.println(max(15.4f, 10.6f));
         System.out.println(max(10, 5, 18));
     }
