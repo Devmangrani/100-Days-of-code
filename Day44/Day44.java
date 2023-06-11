@@ -1,5 +1,5 @@
 public class Day44 {
-    //Printing Sub Arrays 
+    //Printing Sub Arrays  
         public static void printSubArrays(int numbers[]) {
             for (int i = 0; i < numbers.length; i++) {
                 int start = i;
