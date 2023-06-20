@@ -30,7 +30,7 @@ class cuboid extends Rectangle{
 public class Day53 {
     public static void main(String[] args) {
         
-        cuboid c = new cuboid(5,3,10);
+        cuboid c = new cuboid(5,3,10-);
         System.out.println(c.volume());
     }
 }
