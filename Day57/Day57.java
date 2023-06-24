@@ -15,11 +15,11 @@ class My implements test{
     }
 }
 public class Day57 {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         test t = new My();
         t.meth1();
         t.meth2();
         My m = new My();
         m.meth3();
-    }
+    }*/
 }
