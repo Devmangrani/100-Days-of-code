@@ -36,9 +36,15 @@ interface MusicPlayer{
 }
 public class Day58 {
     public static void main(String[] args) {
-         Phone sp = new SmartPhone(); 
+         SmartPhone sp = new SmartPhone(); 
             sp.call();
             sp.sms();
+            sp.Pause();
+            sp.click();
+            sp.play();
+            sp.VideoCall();
+            sp.stop();
+            sp.record();
            
     
 }}
