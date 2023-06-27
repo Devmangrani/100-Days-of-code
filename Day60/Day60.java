@@ -1,5 +1,6 @@
 class Outer{
     int x =10;
+    Inner i = new Inner();
     class Inner{
         int y = 20;
         public void innerDisplay(){
@@ -14,7 +15,7 @@ class Outer{
 
 public class Day60 {
     public static void main(String[] args) {
-        Outer o = new Outer();
-        o.outerDisplay();
+        Outer.Inner oi = new Outer().new Inner();
+        oi.innerDisplay();
     }
 }
