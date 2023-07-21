@@ -25,11 +25,29 @@ public class Day77 {
             System.out.println(n + " x " + i + " = " + i*n);
         }
     }*/
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n =sc.nextInt();
-        for (int i = 1; i <=n; i++) {
-            System.out.println((n + ));
-        }
-    }
+    /*Sample Input
+
+42
+3.1415
+Welcome to HackerRank's Java tutorials!
+
+Sample Output
+
+String: Welcome to HackerRank's Java tutorials!
+Double: 3.1415
+Int: 42 */
+public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int i = sc.nextInt();
+    double d = sc.nextDouble();
+    sc.nextLine();//Single word Entry Without any delimeters
+    String s = sc.nextLine();
+  //  s = sc.nextLine();
+    System.out.println("String :" + s);
+    System.out.println("Double :" + d);
+    System.out.println("Int :" + i);
+    sc.close();
 }
+}
+
+
