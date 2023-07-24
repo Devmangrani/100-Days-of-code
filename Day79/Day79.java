@@ -54,7 +54,7 @@ public class Day79 {
         for (int i = 0; i < 5; i++) {
             System.out.print(list.get(i) + " ");
         }*/
-        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();s
         for (int i = 0; i < 3; i++) {
             list.add(new ArrayList<>());
         }
