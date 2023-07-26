@@ -1,4 +1,5 @@
 import java.security.Key;
+import java.util.Scanner;
 
 public class Day81 {
     public static int linearsearch(int Arr[] , int Key) {
@@ -11,17 +12,18 @@ public class Day81 {
     }
     public static void main(String[] args) {
         int Arr[] =  {18,12,9,14,77,50};
+        Scanner sc = new Scanner(System.in);
+        int key  = sc.nextInt();
+        System.out.println("Enter key from Array : " + key);
         for(int i=0; i<Arr.length ; i++){
-            System.out.print(Arr[i] + " ,");
+            System.out.print(Arr[i] + ", ");
         }
-        
-        //Find Weather 14 exists in Array or not?
-        int key = 14;
+
         int index = linearsearch(Arr, key);
         if (index == -1 ) {
             System.out.println("Not Found");
         }else {
-            System.out.println("Found on :" + index);
+            System.out.println("Found on : " + index);
         }
         
         
