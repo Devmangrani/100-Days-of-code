@@ -22,6 +22,10 @@ public class Day94 {
        System.out.println("Minimum : " + min);
         System.out.println("Maximum : " + max);
     }
+    public static void FindKth() {
+        //Find Kth Element of an Array
+        
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Lenght of Array : ");
@@ -31,9 +35,14 @@ public class Day94 {
         for (int i = 0; i < arr.length; i++) {
              arr[i] = sc.nextInt();
         }
-      // int arr[] = {41,25,53,124,355,575,59,56,42,12,5,2,52,547};
       System.out.println("Entered Array : " + Arrays.toString(arr));
       FindMaxMin(arr);
-      //System.out.println("Entered Array : " + Arrays.toString(arr));
+
+      //Find kth min & max element of an Array
+      //int arr[] = {1,2,6,93,87,23};
+      int k = 3;// here we take kth minimum element
+      Arrays.sort(arr);
+      System.out.println(Arrays.toString(arr));
+      System.out.println(arr[k]);
     }
 }
